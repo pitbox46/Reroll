@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "github.pitbox46.reroll.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "PlayerEntityMixin"
+  ],
+  "client": [
+    "EnchantmentScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8",
+  "refmap": "reroll.refmap.json"
+}
